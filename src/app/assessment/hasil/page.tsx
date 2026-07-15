@@ -574,7 +574,8 @@ function HasilContent() {
           doc.setFont("helvetica", "bold");
           doc.setFontSize(10);
           doc.setTextColor(15, 23, 42);
-          doc.text(`${c.emoji} ${c.title} ${c.label}`, 20, yPos);
+          // Hapus emoji karena jsPDF tidak mendukung karakter emoji Unicode
+          doc.text(`${c.title} ${c.label}`, 20, yPos);
           
           yPos += 4.5;
           doc.setFont("helvetica", "normal");
@@ -593,17 +594,21 @@ function HasilContent() {
         
         yPos += 6;
         profile.fields.forEach((f) => {
+          // Cetak nama mapel
           doc.setFont("helvetica", "bold");
           doc.setFontSize(9);
           doc.setTextColor(15, 23, 42);
-          doc.text(`${f.icon} ${f.name}`, 20, yPos);
+          doc.text(f.name, 20, yPos);
           
+          // Deskripsi mapel di bawah nama mapel agar tidak tumpang tindih
+          yPos += 4.5;
           doc.setFont("helvetica", "normal");
+          doc.setFontSize(9);
           doc.setTextColor(71, 85, 105);
-          const subDescLines = doc.splitTextToSize(f.desc, 120);
-          doc.text(subDescLines, 65, yPos);
+          const subDescLines = doc.splitTextToSize(f.desc, 170);
+          doc.text(subDescLines, 20, yPos);
           
-          yPos += Math.max(subDescLines.length * 4, 6) + 4;
+          yPos += (subDescLines.length * 4) + 4;
         });
         
         // Signature Block
