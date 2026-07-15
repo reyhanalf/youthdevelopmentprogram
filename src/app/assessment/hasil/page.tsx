@@ -430,13 +430,24 @@ function HasilContent() {
   const [emailInput, setEmailInput] = useState("");
   const [studentName, setStudentName] = useState(params.get("name") ?? "");
   const [isSending, setIsSending] = useState(false);
+  const [isPrinting, setIsPrinting] = useState(false);
   const [sendStatus, setSendStatus] = useState<"" | "success" | "error">("");
   const [sendErrorMessage, setSendErrorMessage] = useState("");
+
+  const handlePrint = () => {
+    setIsPrinting(true);
+    setTimeout(() => {
+      window.print();
+      setIsPrinting(false);
+    }, 50);
+  };
 
   const handleSendEmail = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSending(true);
     setSendStatus("");
+    // Yield to the browser so the loading spinner renders before heavy jsPDF work
+    await new Promise<void>((resolve) => setTimeout(resolve, 30));
     
     try {
       // ── Generate PDF Attachment ──
@@ -1134,11 +1145,12 @@ function HasilContent() {
                   Ulangi Assessment
                 </button>
                 <button
-                  onClick={() => window.print()}
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border font-semibold text-sm transition-all hover:bg-surface-variant text-on-surface-variant border-border-subtle"
+                  onClick={handlePrint}
+                  disabled={isPrinting}
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border font-semibold text-sm transition-all hover:bg-surface-variant text-on-surface-variant border-border-subtle disabled:opacity-60"
                 >
                   <Download size={15} />
-                  Simpan Hasil (PDF)
+                  {isPrinting ? "Mempersiapkan..." : "Simpan Hasil (PDF)"}
                 </button>
                 <button
                   onClick={() => setEmailModalOpen(true)}
