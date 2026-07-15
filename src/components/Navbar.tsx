@@ -30,8 +30,12 @@ export default function Navbar({ scrollProgress }: NavbarProps) {
     <nav className="fixed top-0 w-full z-50 glass-nav border-b border-white/45 h-20 shadow-sm transition-all duration-300">
       <div className="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-full">
         <div className="flex items-center gap-12">
-          <Link className="text-2xl font-extrabold text-primary" href="/">
-            YDP
+          <Link className="flex items-center gap-2" href="/">
+            <img 
+              src="/logo-lestari-bumiaji.png" 
+              alt="Lestari Bumiaji Logo" 
+              className="h-10 w-auto object-contain" 
+            />
           </Link>
           <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => {
