@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "text": "Saya suka mencoba memperbaiki barang yang rusak.",
+    "category": "Realistic"
+  },
+  {
+    "id": 2,
+    "text": "Saya lebih senang praktik daripada hanya mendengarkan penjelasan.",
+    "category": "Realistic"
+  },
+  {
+    "id": 3,
+    "text": "Saya senang membuat atau merakit sesuatu.",
+    "category": "Realistic"
+  },
+  {
+    "id": 4,
+    "text": "Saya suka menggunakan alat saat belajar.",
+    "category": "Realistic"
+  },
+  {
+    "id": 5,
+    "text": "Saya lebih cepat paham jika langsung mencoba.",
+    "category": "Realistic"
+  },
+  {
+    "id": 6,
+    "text": "Saya senang kegiatan diluar ruangan.",
+    "category": "Realistic"
+  },
+  {
+    "id": 7,
+    "text": "Saya penasaran cara kerja suatu alat.",
+    "category": "Realistic"
+  },
+  {
+    "id": 8,
+    "text": "Saya suka membuat hasil karya dengan tangan.",
+    "category": "Realistic"
+  },
+  {
+    "id": 9,
+    "text": "Saya menikmati kegiatan yang membutuhkan ketelitian saat praktik.",
+    "category": "Realistic"
+  },
+  {
+    "id": 10,
+    "text": "Saya senang belajar dengan mencoba sendiri.",
+    "category": "Realistic"
+  },
+  {
+    "id": 11,
+    "text": "Saya suka mencari tahu penyebab suatu masalah.",
+    "category": "Investigative"
+  },
+  {
+    "id": 12,
+    "text": "Saya senang memecahkan soal yang menantang.",
+    "category": "Investigative"
+  },
+  {
+    "id": 13,
+    "text": "Saya sering mencari informasi baru sendiri.",
+    "category": "Investigative"
+  },
+  {
+    "id": 14,
+    "text": "Saya suka mencoba berbagai cara untuk menyelesaikan masalah.",
+    "category": "Investigative"
+  },
+  {
+    "id": 15,
+    "text": "Saya penasaran dengan hal-hal baru.",
+    "category": "Investigative"
+  },
+  {
+    "id": 16,
+    "text": "Saya senang melakukan percobaan sederhana.",
+    "category": "Investigative"
+  },
+  {
+    "id": 17,
+    "text": "Saya suka bertanya jika belum paham.",
+    "category": "Investigative"
+  },
+  {
+    "id": 18,
+    "text": "Saya menikmati pelajaran yang membuat saya berpikir.",
+    "category": "Investigative"
+  },
+  {
+    "id": 19,
+    "text": "Saya suka menemukan jawaban sendiri.",
+    "category": "Investigative"
+  },
+  {
+    "id": 20,
+    "text": "Saya tertarik mempelajari topik yang belum pernah saya ketahui.",
+    "category": "Investigative"
+  },
+  {
+    "id": 21,
+    "text": "Saya senang menggambar atau membuat karya.",
+    "category": "Artistic"
+  },
+  {
+    "id": 22,
+    "text": "Saya sering memiliki ide yang berbeda.",
+    "category": "Artistic"
+  },
+  {
+    "id": 23,
+    "text": "Saya suka menghias atau mendesain sesuatu.",
+    "category": "Artistic"
+  },
+  {
+    "id": 24,
+    "text": "Saya senang membuat karya dengan gaya sendiri.",
+    "category": "Artistic"
+  },
+  {
+    "id": 25,
+    "text": "Saya menikmati kegiatan seni atau musik.",
+    "category": "Artistic"
+  },
+  {
+    "id": 26,
+    "text": "Saya suka menulis cerita atau puisi.",
+    "category": "Artistic"
+  },
+  {
+    "id": 27,
+    "text": "Saya senang membuat sesuatu yang unik.",
+    "category": "Artistic"
+  },
+  {
+    "id": 28,
+    "text": "Saya tertarik mencoba kegiatan yang kreatif.",
+    "category": "Artistic"
+  },
+  {
+    "id": 29,
+    "text": "Saya senang menuangkan ide dalam bentuk gambar atau tulisan.",
+    "category": "Artistic"
+  },
+  {
+    "id": 30,
+    "text": "Saya bangga dengan hasil karya saya.",
+    "category": "Artistic"
+  },
+  {
+    "id": 31,
+    "text": "Saya senang membantu teman yang kesulitan.",
+    "category": "Social"
+  },
+  {
+    "id": 32,
+    "text": "Saya mudah berteman dengan orang lain.",
+    "category": "Social"
+  },
+  {
+    "id": 33,
+    "text": "Saya senang bekerja dalam kelompok.",
+    "category": "Social"
+  },
+  {
+    "id": 34,
+    "text": "Saya mendengarkan teman saat mereka bercerita.",
+    "category": "Social"
+  },
+  {
+    "id": 35,
+    "text": "Saya ikut senang ketika teman berhasil.",
+    "category": "Social"
+  },
+  {
+    "id": 36,
+    "text": "Saya berusaha menghibur teman yang sedang sedih.",
+    "category": "Social"
+  },
+  {
+    "id": 37,
+    "text": "Saya senang berbagi ilmu dengan teman.",
+    "category": "Social"
+  },
+  {
+    "id": 38,
+    "text": "Saya suka kegiatan yang dilakukan bersama.",
+    "category": "Social"
+  },
+  {
+    "id": 39,
+    "text": "Saya berusaha memahami perasaan teman.",
+    "category": "Social"
+  },
+  {
+    "id": 40,
+    "text": "Saya senang jika dapat membantu orang lain.",
+    "category": "Social"
+  },
+  {
+    "id": 41,
+    "text": "Saya berani berbicara di depan kelas.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 42,
+    "text": "Saya senang menjadi ketua kelompok.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 43,
+    "text": "Saya suka mengajak teman melakukan kegiatan.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 44,
+    "text": "Saya percaya diri menyampaikan pendapat.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 45,
+    "text": "Saya senang memimpin permainan atau diskusi.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 46,
+    "text": "Saya suka memberi semangat kepada teman.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 47,
+    "text": "Saya berani mengambil keputusan dalam kelompok.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 48,
+    "text": "Saya senang jika diberi tanggung jawab.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 49,
+    "text": "Saya mudah mengajak teman bekerja sama.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 50,
+    "text": "Saya senang mencari cara agar kegiatan berjalan dengan baik.",
+    "category": "Enterprising"
+  },
+  {
+    "id": 51,
+    "text": "Saya suka membuat jadwal belajar.",
+    "category": "Conventional"
+  },
+  {
+    "id": 52,
+    "text": "Saya memeriksa tugas sebelum dikumpulkan.",
+    "category": "Conventional"
+  },
+  {
+    "id": 53,
+    "text": "Saya senang merapikan buku dan alat tulis.",
+    "category": "Conventional"
+  },
+  {
+    "id": 54,
+    "text": "Saya teliti saat mengerjakan tugas.",
+    "category": "Conventional"
+  },
+  {
+    "id": 55,
+    "text": "Saya suka mengikuti aturan di sekolah.",
+    "category": "Conventional"
+  },
+  {
+    "id": 56,
+    "text": "Saya senang mencatat pelajaran dengan rapi.",
+    "category": "Conventional"
+  },
+  {
+    "id": 57,
+    "text": "Saya mengerjakan tugas sesuai urutan.",
+    "category": "Conventional"
+  },
+  {
+    "id": 58,
+    "text": "Saya menyimpan barang di tempatnya.",
+    "category": "Conventional"
+  },
+  {
+    "id": 59,
+    "text": "Saya berusaha mengumpulkan tugas tepat waktu.",
+    "category": "Conventional"
+  },
+  {
+    "id": 60,
+    "text": "Saya senang jika pekerjaan selesai dengan rapi.",
+    "category": "Conventional"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "category": "Mengenal Diri",
+    "tag": "🌱 Mengenal Diri",
+    "badge": "Rekomendasi",
+    "title": "Mengenal Diri Sendiri Secara Mendalam",
+    "description": "Langkah pertama menuju masa depan yang cerah adalah dengan memahami siapa dirimu sebenarnya.",
+    "readTime": "8 menit baca",
+    "type": "Artikel Singkat",
+    "targetGroup": "SMP & SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXVbnXSROmY3PMOFEqGIGhFnlNpb1Gido8A3_Yy9MhgLkPbezGAZcwpzDYzj39RK8gBfPirciNy6aq8qn7nfuMwI5rAqKkq0NN1awe-Vd3mJSrg_eT7N6m5ZRnROxYhIdRG6Gw5Db4m4DUkEujANJumCXcpcBrE_u5VWaKxc1KZ0bU0WJoSEiLDNNBz8Pz-fEClGJRk_xbUNfSsIs2AjVxUk49QbYGrJS06FdvJD9ltVi3gz-_yiLa2FlkNiJrdfMmqrfjmmOFQMs"
+  },
+  {
+    "id": 2,
+    "category": "Menentukan Minat",
+    "tag": "🎯 Menentukan Minat",
+    "badge": "Baru",
+    "title": "Menentukan Minat dan Bakat Terpendam",
+    "description": "Temukan apa yang paling kamu sukai dan kembangkan menjadi keahlian yang membanggakan.",
+    "readTime": "10 menit baca",
+    "type": "Panduan",
+    "targetGroup": "SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB5CyTkakmLaM_WB6Xx7Vqc_C1qE8Fkvt7VDLjh4qhuRSqmwjufUwI3hGNZE4pKulEKq44PkspDWozawAUvxk8tcyrcOVWFZOwoo-7MYrJhedSK65WuRjP8zcIhwAVunRoTRPHZo1MJ2yhkP_sLt9er9ozZI-TjEh1bu8KNWlLOG7xqkaRlppPYasgHmd0alg2uQHQlNDROJlt1w2q5z4tV49iL-7XFwuGM8g-EKFYaGgiaO_-zXB7pYgRA4bIRPgC5Xd6x1UltBMo"
+  },
+  {
+    "id": 3,
+    "category": "Mengenal Diri",
+    "tag": "🎓 Pendidikan",
+    "title": "Mengenal Jurusan SMA dan Kuliah",
+    "description": "Panduan lengkap memilih jurusan yang sesuai dengan cita-cita dan kepribadianmu.",
+    "readTime": "12 menit baca",
+    "type": "Artikel",
+    "targetGroup": "SMP & SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDzZ5cnP3Nir_-nXmOD9GGVWlXic4ud2xZT857QIUiXn_IXsiCzOlIRhcoKAKK30Aj43sSg82Ocg2YdP0eCLO-oluY3-cGHN_x9rcl59I_CLM-19yyj_DVJeU2XCCyWnEmVJuwWwwyM0gjeRzVEckfyoKHbC1yA2OJyBRCcEIj-6fSK5EwO17jUmqE3Tc7-Fqdk_jX82FxQX5eCrMTbXKYh6SUwZ9nfsxwWf-Ofm0uwh9fIcVGXuqAAQzSzDh3E_9mqS5QX1cl98tM"
+  },
+  {
+    "id": 4,
+    "category": "Menjelajahi Masa Depan",
+    "tag": "💼 Persiapan Karier",
+    "title": "Mengenal Dunia Kerja Masa Depan",
+    "description": "Berbagai profesi menarik di era digital yang mungkin belum pernah kamu dengar sebelumnya.",
+    "readTime": "7 menit baca",
+    "type": "Artikel Singkat",
+    "targetGroup": "SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBI714m-scrlHWG9eligg6EmnUX24Zxk444ryouhvv5N3-rZL-iMxA-Fi4LbW8x7dVVA55JqutFsIKJ5YeBn8j8ROv2Wq12FDaZdq5HefO2b9lDwzvWxIKmkjHUxss2NcgbmZbnnbKZqG91C8Km4DOQbV4pGodSMUa8GDBnmvARhukTeJcpb-QbH-bjoNG9JjwXS9-TmpO4r3CoESHSsXPWRBsoOZOkYem847uL9uxnI0hNWHaQ1qKkvD2CSxEjRKqGyDYFKlTvVE"
+  },
+  {
+    "id": 5,
+    "category": "Menjelajahi Masa Depan",
+    "tag": "🧭 Menjelajahi Masa Depan",
+    "badge": "Populer",
+    "title": "Menyusun Rencana Masa Depan",
+    "description": "Tips praktis menentukan target jangka pendek dan panjang untuk karir impianmu.",
+    "readTime": "15 menit baca",
+    "type": "Workshop",
+    "targetGroup": "SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAMj06YDspRxvnTJrzCSMgSn1CilqCTk5nCOq4LZcPoLSCBNF72CbtwToBj2myzygpF-3p2wjeV070KWH4-BAtfY2pRD0UrGso_yGQbHIybzv6uoOXv7x3YE5C1Xl2vOyqHHds0QB5qGawFViypZVUf9Nfz9_KZK6d_TNztxGPHADA5LYy_OsDCVPvRUxOnrhgq4UcUW8p3du9UqjDea2Xiu10lYwtk2GC6Nd-V08nUyypwd58PVQSUZWwMlWz2tKVzKsV6xlKNXuY"
+  },
+  {
+    "id": 6,
+    "category": "Menjelajahi Masa Depan",
+    "tag": "💼 Persiapan Karier",
+    "title": "Membuat CV Pertamaku",
+    "description": "Panduan sederhana membuat CV yang menarik khusus bagi pelajar dan pemula.",
+    "readTime": "8 menit baca",
+    "type": "Tutorial",
+    "targetGroup": "SMP & SMA",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAeKaNfJcANvc6Jejg1YhiJ4R0O23Pl_ibO5x6ceXD90vpdhB8MnLwjqB65PIhXfRfJH3G05-Uo5FukwkGAmYZa04P9Vd-cI2ehEh7ze7nTKTI8xAmCP0b2WgtSY90H4AhPTKUhpzoWqbK_yKHBgncZkfYSL9129ZvAw8eiKeMdMpwb-JlTUwGL3Rm-FyuzTeHpTN7ZT2l6YQlasQwYQbp1cYSCSv9PlE3QUuH7VNVNcNDPTIDEMb_Vip-c8Smkw6ZiOFizPEm_wX8"
+  }
+]
