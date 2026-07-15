@@ -1524,7 +1524,15 @@ function HasilContent() {
           animation: scaleUp 0.2s ease-out forwards;
         }
         @media print {
-          body, .min-h-screen, main {
+          @page {
+            margin: 0;
+          }
+          body {
+            padding: 1.6cm 1.2cm !important;
+            background-color: white !important;
+            color: black !important;
+          }
+          .min-h-screen, main {
             background-color: white !important;
             color: black !important;
             padding-top: 0 !important;
