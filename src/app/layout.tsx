@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Youth Development Program | Kenali Potensimu",
   description: "Temukan minat, bakat, dan peluang masa depan melalui materi pembelajaran yang interaktif dan assessment sederhana yang tervalidasi.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
