@@ -34,7 +34,7 @@ export default function Navbar({ scrollProgress }: NavbarProps) {
             <img 
               src="/logo-lestari-bumiaji.png" 
               alt="Lestari Bumiaji Logo" 
-              className="h-10 w-auto object-contain" 
+              className="h-14 w-auto object-contain" 
             />
           </Link>
           <div className="hidden lg:flex items-center gap-8">
