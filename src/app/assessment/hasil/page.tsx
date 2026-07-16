@@ -163,9 +163,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🌾", title: "Pertanian & Kehutanan", desc: "PTN Favorit: IPB, UGM, UB, UNHAS. Mengelola alam & pangan modern." },
     ],
     recommendedMateri: [
-      { type: "Video", title: "Pertanian Modern di Era Digital", duration: "8 Menit", id: "pertanian-modern" },
-      { type: "Bacaan", title: "Mengenal Teknologi Tepat Guna", duration: "6 Menit", id: "teknologi-tepat-guna" },
-      { type: "Panduan", title: "Memulai Usaha Tani Sendiri", duration: "12 Menit", id: "usaha-tani" },
+      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
     steps: [
       { title: "Kuasai Dasar Fisika", desc: "Fokus pada mekanika dan perhitungan dasar untuk menunjang nilai SNBP." },
@@ -199,9 +199,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🧪", title: "MIPA (Fisika/Kimia/Biologi)", desc: "PTN Favorit: ITB, UGM, UI, UNS. Meneliti sains murni & akademisi." },
     ],
     recommendedMateri: [
-      { type: "Video", title: "Pengantar Berpikir Komputasional", duration: "10 Menit", id: "berpikir-komputasional" },
-      { type: "Bacaan", title: "Dunia Data Science untuk Pemula", duration: "8 Menit", id: "data-science" },
-      { type: "Panduan", title: "Cara Memulai Riset Sederhana", duration: "10 Menit", id: "mulai-riset" },
+      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Baterai Motivasi & Strategi Belajar", duration: "8 Menit", id: "6" },
+      { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
     steps: [
       { title: "Ikuti Olimpiade Sains", desc: "Asah logika dengan ikut kompetisi matematika, biologi, atau komputer." },
@@ -235,9 +235,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "✍️", title: "Sastra & Penulisan Kreatif", desc: "PTN Favorit: UI, UGM, UNPAD, FIB-UNAIR. Menjadi copywriter & penulis." },
     ],
     recommendedMateri: [
-      { type: "Video", title: "Dasar-dasar Desain Grafis", duration: "10 Menit", id: "desain-grafis" },
-      { type: "Bacaan", title: "Mengenal Minat dan Bakat Seni", duration: "5 Menit", id: "minat-bakat-seni" },
-      { type: "Panduan", title: "Membangun Portofolio Kreatif", duration: "15 Menit", id: "portofolio-kreatif" },
+      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
     steps: [
       { title: "Cicil Portofolio Gambar", desc: "Bagi calon mahasiswa DKV/Seni, wajib mencicil gambar naratif dan komposisi." },
@@ -271,9 +271,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "👩‍⚕️", title: "Gizi & Keperawatan", desc: "PTN Favorit: UI, UGM, UNAIR, UB. Menyelenggarakan asuhan gizi & medis." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Kecerdasan Emosional untuk Pemimpin", duration: "8 Menit", id: "kecerdasan-emosional" },
-      { type: "Video", title: "Public Speaking untuk Semua Orang", duration: "12 Menit", id: "public-speaking" },
-      { type: "Panduan", title: "Cara Menjadi Mentor yang Baik", duration: "10 Menit", id: "menjadi-mentor" },
+      { type: "Bacaan", title: "Tantangan Remaja & Manajemen Diri", duration: "6 Menit", id: "1" },
+      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Baterai Motivasi & Strategi Belajar", duration: "8 Menit", id: "6" },
     ],
     steps: [
       { title: "Aktif di Organisasi", desc: "Ikuti PMR (Palang Merah Remaja), OSIS, atau pramuka untuk melatih empati sosial." },
@@ -307,9 +307,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "📣", title: "Hubungan Masyarakat (PR)", desc: "PTN Favorit: UI, UNPAD, UNDIP, UB. Mengelola citra lembaga & publikasi." },
     ],
     recommendedMateri: [
-      { type: "Video", title: "Mindset Pengusaha Sukses", duration: "10 Menit", id: "mindset-pengusaha" },
-      { type: "Bacaan", title: "Cara Memulai Bisnis dari Nol", duration: "12 Menit", id: "mulai-bisnis" },
-      { type: "Panduan", title: "Strategi Pemasaran Digital Dasar", duration: "8 Menit", id: "digital-marketing" },
+      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Pilar 3: Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
     ],
     steps: [
       { title: "Ikuti Ekskul Debat", desc: "Asah logika berargumen dan persuasi verbal lewat klub debat sekolah." },
@@ -343,9 +343,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🗄️", title: "Statistika & Kearsipan", desc: "PTN Favorit: ITS, UGM, UI, UB. Mengolah data survei & pengarsipan dokumen." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Dasar-dasar Literasi Keuangan", duration: "8 Menit", id: "literasi-keuangan" },
-      { type: "Video", title: "Manajemen Waktu dan Produktivitas", duration: "10 Menit", id: "manajemen-waktu" },
-      { type: "Panduan", title: "Memulai Karier di Bidang Keuangan", duration: "12 Menit", id: "karier-keuangan" },
+      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Pilar 3: Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
+      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
     ],
     steps: [
       { title: "Kelola Kas Kelas", desc: "Ajukan diri menjadi bendahara kelas untuk melatih pembukuan uang kas." },
