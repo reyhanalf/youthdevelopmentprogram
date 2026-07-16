@@ -47,7 +47,7 @@ Dengan memiliki arah dan kesibukan yang positif, secara alami kalian akan lebih 
       "Siswa memahami bahwa cita-cita besar membutuhkan strategi dan perencanaan, bukan hanya angan-angan.",
       "Siswa memahami peran kerja keras, konsistensi, dan Future Skills dalam mencapai cita-cita."
     ],
-    contentMarkdown: `### Pilar 1: Memetakan Masa Depan
+    contentMarkdown: `### Memetakan Masa Depan
 Cita-cita membutuhkan strategi dan perencanaan, bukan sekadar angan-angan semata. Peta karir dimulai dari satu titik: **visi dan cita-cita** yang jelas — ingin menjadi apa kalian di masa depan?
 
 ### Cita-Cita Butuh Usaha Ekstra
@@ -79,7 +79,7 @@ Cobalah tuliskan satu cita-cita utamamu, lalu pikirkan tiga langkah kecil yang b
       "Siswa mampu membedakan skala prioritas antara tugas penting/mendesak dan kegiatan yang sekadar menyenangkan.",
       "Siswa memahami pentingnya disiplin dan menghindari kebiasaan menunda pekerjaan (procrastination)."
     ],
-    contentMarkdown: `### Pilar 2: Manajemen Waktu
+    contentMarkdown: `### Manajemen Waktu
 Bekerja lebih cerdas, atur prioritas, dan kelola aset paling berharga yang tidak bisa didaur ulang — yaitu waktu.
 
 ### Skala Prioritas
@@ -112,7 +112,7 @@ Jangan biasakan menunda-nunda pekerjaan (*procrastination*).
       "Siswa mampu membedakan antara kebutuhan (needs) dan keinginan (wants).",
       "Siswa memahami konsep 'investasi leher ke atas' untuk mendukung Future Skills."
     ],
-    contentMarkdown: `### Pilar 3: Manajemen Keuangan
+    contentMarkdown: `### Manajemen Keuangan
 Memahami literasi keuangan sejak dini untuk mendukung investasi masa depanmu.
 
 ### 3 Langkah Cerdas Finansial Pelajar
