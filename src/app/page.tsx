@@ -20,8 +20,25 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import materiData from "@/data/materi.json";
+
+interface Article {
+  id: number;
+  category: string;
+  tag: string;
+  badge?: string;
+  title: string;
+  description: string;
+  readTime: string;
+  type: string;
+  targetGroup: string;
+  image: string;
+}
+
+const ARTICLES: Article[] = materiData as Article[];
 
 export default function Home() {
+  const featuredArticles = ARTICLES.slice(0, 3);
   return (
     <div className="bg-surface font-sans text-on-surface overflow-x-hidden min-h-screen flex flex-col">
       {/* Navigation */}
@@ -39,7 +56,7 @@ export default function Home() {
               <span className="text-primary">Siapkan Masa Depanmu.</span>
             </h1>
             <p className="text-lg md:text-xl text-on-surface-variant mb-10 max-w-xl leading-relaxed">
-              Temukan minat, bakat, dan berbagai peluang masa depan melalui materi pembelajaran yang interaktif dan assessment sederhana yang tervalidasi.
+              Temukan minat, bakat, dan berbagai peluang masa depan melalui materi pembelajaran yang interaktif and assessment sederhana yang tervalidasi.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link href="/assessment" className="bg-primary text-on-primary px-10 py-5 rounded-2xl font-bold text-lg hover:scale-105 transition-transform duration-200 active:scale-95 shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
@@ -147,70 +164,38 @@ export default function Home() {
             </Link>
           </div>
           <div className="flex gap-8 overflow-x-auto pb-8 scrollbar-hide no-scrollbar snap-x">
-            {/* Material 1 */}
-            <div className="min-w-[300px] sm:min-w-[380px] md:min-w-[450px] bg-white rounded-[32px] overflow-hidden card-shadow snap-start flex flex-col justify-between text-left">
-              <div className="h-60 relative w-full">
-                <img
-                  className="w-full h-full object-cover"
-                  alt="Mengenal Diri Sendiri"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCj9bsuCJncIzdi_85fqm2_9tptwjr79FmLuWnhRERir0C4elu1SDW6AXt70Y-McZupBmUOgDd1_AZNYufF-AmQ7Cm_e9XJxzaBGlCGAvELhyW__FpxAdSjVeY5KGypZGit2fS61P7chmBCgvf6DxniJT9mVwCoV_LJDu4O6WNj9psjBMWEsTYZMfnmIseEpks_3eBVhS9c5K0S8c105O53f_zlcFYFxsUePZLExsQpvVyq9WsBMZmy5IuOE5D_O2z8jw612N9nLnw"
-                />
-                <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-full text-xs font-bold text-primary">BARU</div>
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-2 text-sm text-on-surface-variant mb-4 font-medium">
-                  <Clock className="w-4 h-4" /> 10 Menit Baca
-                  <span className="mx-2">•</span>
-                  Psikologi
+            {featuredArticles.map((article) => (
+              <div key={article.id} className="min-w-[300px] sm:min-w-[380px] md:min-w-[450px] bg-white rounded-[32px] overflow-hidden card-shadow snap-start flex flex-col justify-between text-left">
+                <div className="h-60 relative w-full">
+                  <img
+                    className="w-full h-full object-cover"
+                    alt={article.title}
+                    src={article.image}
+                  />
+                  {article.badge && (
+                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-4 py-2 rounded-full text-xs font-bold text-primary">
+                      {article.badge}
+                    </div>
+                  )}
                 </div>
-                <h3 className="text-2xl font-bold mb-4 hover:text-primary transition-colors">Mengenal Diri Sendiri Lebih Dalam</h3>
-                <p className="text-on-surface-variant mb-6 line-clamp-2 leading-relaxed">Pahami nilai-nilai hidup dan apa yang sebenarnya membuatmu bersemangat setiap hari.</p>
-                <Link href="/materi/1" className="w-full py-4 bg-surface-container rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center">Baca Sekarang</Link>
-              </div>
-            </div>
-            {/* Material 2 */}
-            <div className="min-w-[300px] sm:min-w-[380px] md:min-w-[450px] bg-white rounded-[32px] overflow-hidden card-shadow snap-start flex flex-col justify-between text-left">
-              <div className="h-60 relative w-full">
-                <img
-                  className="w-full h-full object-cover"
-                  alt="Menentukan Minat dan Bakat"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLsEnpU9a6WQ8DWdi6p7In3_iMTyR2g959UvH-fx24-AAZFEI5sXRQpNOb-L4gSxJhggKw1_cE9IY9CMvliJr4rQxSi1GbFyPerWnGrC6Ckaebizs7xFEbu1vtljDNZrQB6JyYN0L3D85CA-LyM7h9mOeuhG_Ss3luE2DoeJ6nWokqJfls3eS2uqoIQgrXwaVDcOYR0jwdlg7550whDejGQImhIgzdGWYDGQy50erONqaMnXEa75X7ShI_49cDqLUnrfSKdTs567E"
-                />
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-2 text-sm text-on-surface-variant mb-4 font-medium">
-                  <Clock className="w-4 h-4" /> 12 Menit Baca
-                  <span className="mx-2">•</span>
-                  Karir
+                <div className="p-8 flex flex-col flex-grow">
+                  <div className="flex items-center gap-2 text-sm text-on-surface-variant mb-4 font-medium">
+                    <Clock className="w-4 h-4" /> {article.readTime}
+                    <span className="mx-2">•</span>
+                    {article.category}
+                  </div>
+                  <h3 className="text-2xl font-bold mb-4 hover:text-primary transition-colors line-clamp-2">{article.title}</h3>
+                  <p className="text-on-surface-variant mb-6 line-clamp-2 leading-relaxed flex-grow">{article.description}</p>
+                  <Link href={`/materi/${article.id}`} className="w-full py-4 bg-surface-container rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center">
+                    Baca Sekarang
+                  </Link>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 hover:text-primary transition-colors">Menentukan Minat dan Bakat</h3>
-                <p className="text-on-surface-variant mb-6 line-clamp-2 leading-relaxed">Strategi jitu membedakan antara hobi sesaat dengan potensi karir jangka panjang.</p>
-                <Link href="/materi/2" className="w-full py-4 bg-surface-container rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center">Baca Sekarang</Link>
               </div>
-            </div>
-            {/* Material 3 */}
-            <div className="min-w-[300px] sm:min-w-[380px] md:min-w-[450px] bg-white rounded-[32px] overflow-hidden card-shadow snap-start flex flex-col justify-between text-left">
-              <div className="h-60 relative w-full">
-                <img
-                  className="w-full h-full object-cover"
-                  alt="Eksplorasi Karir"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7-Q2bESsk2edhYDrDRGkfT_QGbGy6qgQM17HRNWuBDyHgtUKxgZTxlQGs8nyM4GNjv1tPIhqx3F4Ci-glyGqLSQYbAFy4LOzp_Gj9lf2mJGYiEveB57p1guM6GOylM_6u_zkA8or_rjvRoz5o4WWr_v9uIFGIJ0717VY7PsfaSURn8rG4pY0-qHyG8x_bnAE34_GSMNdLYb53NLtfRKjenjmwvYdFPm9F3c6N0mgnTUaF_oonehT3FbjHVoDGZKVYtBagMHaP3rc"
-                />
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-2 text-sm text-on-surface-variant mb-4 font-medium">
-                  <Clock className="w-4 h-4" /> 15 Menit Baca
-                  <span className="mx-2">•</span>
-                  Masa Depan
-                </div>
-                <h3 className="text-2xl font-bold mb-4 hover:text-primary transition-colors">Eksplorasi Karir di Era Digital</h3>
-                <p className="text-on-surface-variant mb-6 line-clamp-2 leading-relaxed">Pahami peluang baru yang bermunculan dan skill apa yang wajib kamu miliki saat ini.</p>
-                <Link href="/materi/3" className="w-full py-4 bg-surface-container rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center">Baca Sekarang</Link>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
+
 
       {/* Alur Belajarmu */}
       <section className="py-24 px-margin-mobile md:px-margin-desktop bg-surface-container-low">
