@@ -163,8 +163,8 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🌾", title: "Pertanian & Kehutanan", desc: "PTN Favorit: IPB, UGM, UB, UNHAS. Mengelola alam & pangan modern." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
-      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
       { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
     steps: [
@@ -235,7 +235,7 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "✍️", title: "Sastra & Penulisan Kreatif", desc: "PTN Favorit: UI, UGM, UNPAD, FIB-UNAIR. Menjadi copywriter & penulis." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
       { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
       { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
@@ -307,9 +307,9 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "📣", title: "Hubungan Masyarakat (PR)", desc: "PTN Favorit: UI, UNPAD, UNDIP, UB. Mengelola citra lembaga & publikasi." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Pilar 1: Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
-      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
-      { type: "Bacaan", title: "Pilar 3: Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
+      { type: "Bacaan", title: "Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
+      { type: "Bacaan", title: "Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
     ],
     steps: [
       { title: "Ikuti Ekskul Debat", desc: "Asah logika berargumen dan persuasi verbal lewat klub debat sekolah." },
@@ -343,8 +343,8 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🗄️", title: "Statistika & Kearsipan", desc: "PTN Favorit: ITS, UGM, UI, UB. Mengolah data survei & pengarsipan dokumen." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Pilar 2: Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
-      { type: "Bacaan", title: "Pilar 3: Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
+      { type: "Bacaan", title: "Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
+      { type: "Bacaan", title: "Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
       { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
     ],
     steps: [
