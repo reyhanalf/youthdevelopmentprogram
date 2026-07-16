@@ -275,23 +275,7 @@ export default function AssessmentPage() {
 
             {/* ── Instruction Card ── */}
             <div className="bg-white rounded-[32px] p-8 md:p-10 border border-outline-variant shadow-xl space-y-6">
-              {/* Quick Info Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-6 border-b border-border-subtle w-full">
-                <div className="w-full flex items-center gap-3 p-4 rounded-2xl bg-surface-variant/40">
-                  <span className="text-2xl shrink-0">⏱️</span>
-                  <div className="min-w-0">
-                    <p className="text-xs text-on-surface-variant font-medium">Estimasi Waktu</p>
-                    <p className="text-sm font-bold text-on-surface">~60 Menit</p>
-                  </div>
-                </div>
-                <div className="w-full flex items-center gap-3 p-4 rounded-2xl bg-surface-variant/40">
-                  <span className="text-2xl shrink-0">📝</span>
-                  <div className="min-w-0">
-                    <p className="text-xs text-on-surface-variant font-medium">Jumlah Soal</p>
-                    <p className="text-sm font-bold text-on-surface">60 Pertanyaan</p>
-                  </div>
-                </div>
-              </div>
+
 
               {/* Instructions List */}
               <div className="space-y-5">
