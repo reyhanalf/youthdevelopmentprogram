@@ -49,22 +49,6 @@ export default function Home() {
                 Lihat Materi
               </Link>
             </div>
-            <div className="flex flex-wrap gap-8 items-center border-t border-outline-variant/30 pt-8">
-              <div>
-                <p className="text-3xl font-extrabold text-on-surface">300+</p>
-                <p className="text-on-surface-variant font-bold text-xs uppercase tracking-wider mt-1">Pelajar Berpartisipasi</p>
-              </div>
-              <div className="w-px h-10 bg-outline-variant/30 hidden sm:block"></div>
-              <div>
-                <p className="text-3xl font-extrabold text-on-surface">8</p>
-                <p className="text-on-surface-variant font-bold text-xs uppercase tracking-wider mt-1">Materi Bacaan</p>
-              </div>
-              <div className="w-px h-10 bg-outline-variant/30 hidden sm:block"></div>
-              <div>
-                <p className="text-3xl font-extrabold text-on-surface">15</p>
-                <p className="text-on-surface-variant font-bold text-xs uppercase tracking-wider mt-1">Menit Assessment</p>
-              </div>
-            </div>
           </div>
           <div className="relative flex justify-center">
             <div className="absolute -top-20 -right-20 w-80 h-80 bg-secondary-container rounded-full blur-3xl opacity-20"></div>
