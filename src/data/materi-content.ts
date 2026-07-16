@@ -138,16 +138,16 @@ Gunakan uang tabunganmu untuk hal bermanfaat, seperti membeli buku pengembangan 
 
   "5": {
     summary:
-      "Modul ini mengenalkan konsep self-awareness kepada siswa menggunakan analogi Iceberg Model. Siswa diajak memahami bahwa apa yang terlihat dari seseorang (nilai, prestasi, ranking) hanyalah sebagian kecil dari siapa dirinya, dan bahwa mengenali diri sendiri sangat penting untuk mengambil keputusan dan mengembangkan potensi.",
+      "Modul ini mengenalkan konsep self-awareness kepada siswa. Siswa diajak memahami bahwa apa yang terlihat dari seseorang (nilai, prestasi, ranking) hanyalah sebagian dari siapa dirinya, dan bahwa mengenali diri sendiri sangat penting untuk mengambil keputusan dan mengembangkan potensi.",
     goals: [
       "Siswa memahami definisi dan pentingnya self-awareness dalam kehidupan sehari-hari.",
-      "Siswa mampu mengidentifikasi hal-hal 'tersembunyi' dalam dirinya di luar prestasi yang terlihat, seperti minat, kebiasaan belajar, dan kepercayaan diri.",
+      "Siswa mampu mengidentifikasi hal-hal unik dalam dirinya di luar prestasi yang terlihat, seperti minat, kebiasaan belajar, dan kepercayaan diri.",
       "Siswa dapat memberikan contoh kesadaran diri dalam konteks kebiasaan belajarnya sendiri."
     ],
     contentMarkdown: `### Siapa Aku?
 "Apa yang terlihat dari seseorang hanyalah sebagian kecil dari siapa dirinya."
 
-Menggunakan **Iceberg Model**, yang terlihat di permukaan hanyalah hal-hal seperti nilai rapor, prestasi, ranking, cara berbicara, dan hobi. Namun di bawah permukaan, ada hal-hal yang jauh lebih penting untuk dikenali:
+Yang terlihat oleh orang lain hanyalah hal-hal di luar seperti nilai rapor, prestasi, ranking, cara berbicara, dan hobi. Namun di dalam diri kita, ada hal-hal yang jauh lebih penting untuk dikenali:
 
 * Mengenal diri sendiri (self-awareness)
 * Minat dan bakat
@@ -178,7 +178,7 @@ Dengan self-awareness, kita akan lebih mudah untuk:
     caseStudySolution:
       "Sinta perlu melatih self-awareness dengan mengenali apa yang benar-benar membuatnya bersemangat, bukan sekadar mengikuti pilihan teman. Dengan menyadari bahwa minatnya ada di bidang seni, Sinta bisa mengambil keputusan yang lebih sesuai dengan dirinya, seperti pindah ke ekstrakurikuler seni yang lebih mendukung potensinya.",
     reflectionQuestions: [
-      "Sebutkan satu hal 'di bawah permukaan' tentang dirimu (minat, kebiasaan belajar, atau kepercayaan diri) yang mungkin belum banyak diketahui orang lain.",
+      "Sebutkan satu hal tentang dirimu (minat, kebiasaan belajar, atau kepercayaan diri) yang mungkin belum banyak diketahui orang lain.",
       "Kapan terakhir kali kamu menyadari sesuatu tentang cara belajarmu sendiri? Apa yang kamu sadari?"
     ]
   },

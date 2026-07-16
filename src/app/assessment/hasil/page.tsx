@@ -199,7 +199,7 @@ const profiles: Record<Category, ResultProfile> = {
       { emoji: "🧪", title: "MIPA (Fisika/Kimia/Biologi)", desc: "PTN Favorit: ITB, UGM, UI, UNS. Meneliti sains murni & akademisi." },
     ],
     recommendedMateri: [
-      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Pengembangan Self-Awareness", duration: "7 Menit", id: "5" },
       { type: "Bacaan", title: "Baterai Motivasi & Strategi Belajar", duration: "8 Menit", id: "6" },
       { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
@@ -236,7 +236,7 @@ const profiles: Record<Category, ResultProfile> = {
     ],
     recommendedMateri: [
       { type: "Bacaan", title: "Visi dan Cita-Cita Masa Depan", duration: "7 Menit", id: "2" },
-      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Pengembangan Self-Awareness", duration: "7 Menit", id: "5" },
       { type: "Bacaan", title: "Pengembangan Diri & Growth Mindset", duration: "8 Menit", id: "7" },
     ],
     steps: [
@@ -272,7 +272,7 @@ const profiles: Record<Category, ResultProfile> = {
     ],
     recommendedMateri: [
       { type: "Bacaan", title: "Tantangan Remaja & Manajemen Diri", duration: "6 Menit", id: "1" },
-      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Pengembangan Self-Awareness", duration: "7 Menit", id: "5" },
       { type: "Bacaan", title: "Baterai Motivasi & Strategi Belajar", duration: "8 Menit", id: "6" },
     ],
     steps: [
@@ -345,7 +345,7 @@ const profiles: Record<Category, ResultProfile> = {
     recommendedMateri: [
       { type: "Bacaan", title: "Manajemen Waktu & Skala Prioritas", duration: "6 Menit", id: "3" },
       { type: "Bacaan", title: "Manajemen Keuangan Pelajar", duration: "6 Menit", id: "4" },
-      { type: "Bacaan", title: "Self-Awareness & Model Gunung Es", duration: "7 Menit", id: "5" },
+      { type: "Bacaan", title: "Pengembangan Self-Awareness", duration: "7 Menit", id: "5" },
     ],
     steps: [
       { title: "Kelola Kas Kelas", desc: "Ajukan diri menjadi bendahara kelas untuk melatih pembukuan uang kas." },
